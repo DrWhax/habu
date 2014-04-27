@@ -7,7 +7,7 @@ Today we launch the Debian OTR team. OTR stands for "Off-the-Record" messaging w
 
 In a post-Snowden age, it is important that Debian provides encryption to those who want to protect their communications. OTR is one of the protocols that is relatively easy to use for end-users. Its end-to-end encryption makes it harder for attackers to decrypt the communication between two parties.
 
-The Debian OTR team is supported by OTR.im[1], a community of OTR developers, whose aim it is to work effectively together, peer-review each other's work and encourage people to step in and work together on the OTR ecosystem and OTR upstream.
+The Debian OTR team is supported by OTR.im, a community of OTR developers, whose aim it is to work effectively together, peer-review each other's work and encourage people to step in and work together on the OTR ecosystem and OTR upstream.
 
 Now for the burning question, how can you contribute? We welcome any contribution! From bug reporting and triaging, to bugfixing, packaging and backporting. We will help newcomers if needed and are very grateful for your contribution!
 
