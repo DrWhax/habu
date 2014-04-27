@@ -1,45 +1,51 @@
-<!DOCTYPE html>
-<html>
+	<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8 ie-7"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie13 ie-8"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en">
 <head>
-<title>My Blog</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet" type="text/css">
-<style>
-body {
-    font-family: Open Sans;
-    background-color: #f3f3f3;
-}
-h1, h2, h3, h4 {
-    font-family: Yanone Kaffeesatz;
-}
-.container {
-    max-width: 730px;
-}
-.footer {
-    margin-top: 50px;
-    font-size: 11px;
-    text-align: center;
-}
-</style>
+	<title>Otr.im - Blog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://otr.im/assets/css/style.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
-<body>
-<div class="container">
-    <div class="hero-unit faq">
-        <div class="ac" style="text-align: center;">
-            <h1>My Blog</h1>
-            <a href="index.html">Home</a> &bull; <a href="about.html">About</a>
+<body class="blog">
+<div class="navbar-wrapper">
+      <div class="container">
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">OTR.im</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+				<li><a href="clients.html">Clients</a></li>
+				<li><a href="about.html">About</a></li>
+                <li class="active"><a href="/blog/">Blog</a></li>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-    
+
+<div class="container" id="container">
+	<div class="container-inner">
+		
 <div class="hero-unit faq">
     <div class="ac">
-        <h2>Welcome to Habu</h2>
+        <h2 class="maintitle">Welcome to Habu</h2>
     </div>
 </div>
 
-<div>
+<div class="post">
     <p>Welcome to Habu.</p>
 <p>Habu is likely the simplest static blog generator you'll encounter, no bullshit.
 If you're techie enough and need a simple page to publish your work and if you share
@@ -89,14 +95,15 @@ code blocks according to the specified programming language.</p>
 
 <p>This is pretty much it for now.</p>
 <p>Enjoy.</p>
-    <div>
+    <div class="postmeta">
         <p class="text-muted">published on 2014-02-08 15:00:00 by nex</p>
     </div>
 </div>
 
+	</div>
 </div>
-<div class="footer">
+<footer class="footer">
     <p class="text-muted">powered by <a href="https://github.com/botherder/habu">habu</a>.</p>
-</div>
+</footer>
 </body>
 </html>
