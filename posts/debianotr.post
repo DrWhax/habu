@@ -1,0 +1,14 @@
+Title: Debian OTR team
+Slug: 
+Date: 2014-04-27 14:00:00
+Author: Debian OTR team
+
+Today we launch the Debian OTR team. OTR stands for "Off-the-Record" messaging which provides encryption, authentication, deniability and perfect forward secrecy. The team was started by various maintainers of software that feature "OTR" support. OTR is used for instant messaging. It adds an encryption layer over existing instant messaging protocols like Jabber and IRC and is implemented in several instant messaging clients, which we aim to support and maintain in Debian.
+
+In a post-Snowden age, it is important that Debian provides encryption to those who want to protect their communications. OTR is one of the protocols that is relatively easy to use for end-users. Its end-to-end encryption makes it harder for attackers to decrypt the communication between two parties.
+
+The Debian OTR team is supported by OTR.im[1], a community of OTR developers, whose aim it is to work effectively together, peer-review each other's work and encourage people to step in and work together on the OTR ecosystem and OTR upstream.
+
+Now for the burning question, how can you contribute? We welcome any contribution! From bug reporting and triaging, to bugfixing, packaging and backporting. We will help newcomers if needed and are very grateful for your contribution!
+
+You can find the Debian OTR homepage with all the information on how to get involved: [here](https://wiki.debian.org/Teams/OTR)
